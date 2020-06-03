@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="delta_1a_lidar"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/pi/LIDAR/Delta_1A_linux/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/LIDAR/Delta_1A_linux/build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/LIDAR/Delta_1A_linux/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/LIDAR/Delta_1A_linux/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/LIDAR/Delta_1A_linux/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/pi/LIDAR/Delta_1A_linux/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/LIDAR/Delta_1A_linux/build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/LIDAR/Delta_1A_linux/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/LIDAR/Delta_1A_linux/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/LIDAR/Delta_1A_linux/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/pi/LIDAR/Delta_1A_linux/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/LIDAR/Delta_1A_linux/build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/LIDAR/Delta_1A_linux/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/LIDAR/Delta_1A_linux/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/LIDAR/Delta_1A_linux/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="empty">
+				<Option output="/home/pi/LIDAR/Delta_1A_linux/build/empty" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/LIDAR/Delta_1A_linux/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/LIDAR/Delta_1A_linux/./src/include"/>
+					<Add directory="/home/pi/LIDAR/Delta_1A_linux/./src/src"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/LIDAR/Delta_1A_linux/build/Makefile&quot;  VERBOSE=1 empty"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/LIDAR/Delta_1A_linux/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/LIDAR/Delta_1A_linux/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/LIDAR/Delta_1A_linux/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="empty/fast">
+				<Option output="/home/pi/LIDAR/Delta_1A_linux/build/empty" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/LIDAR/Delta_1A_linux/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/LIDAR/Delta_1A_linux/./src/include"/>
+					<Add directory="/home/pi/LIDAR/Delta_1A_linux/./src/src"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/LIDAR/Delta_1A_linux/build/Makefile&quot;  VERBOSE=1 empty/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/LIDAR/Delta_1A_linux/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/LIDAR/Delta_1A_linux/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/LIDAR/Delta_1A_linux/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="detect">
+				<Option output="/home/pi/LIDAR/Delta_1A_linux/build/detect" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/LIDAR/Delta_1A_linux/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/LIDAR/Delta_1A_linux/./src/include"/>
+					<Add directory="/home/pi/LIDAR/Delta_1A_linux/./src/src"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/LIDAR/Delta_1A_linux/build/Makefile&quot;  VERBOSE=1 detect"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/LIDAR/Delta_1A_linux/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/LIDAR/Delta_1A_linux/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/LIDAR/Delta_1A_linux/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="detect/fast">
+				<Option output="/home/pi/LIDAR/Delta_1A_linux/build/detect" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/LIDAR/Delta_1A_linux/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/LIDAR/Delta_1A_linux/./src/include"/>
+					<Add directory="/home/pi/LIDAR/Delta_1A_linux/./src/src"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/LIDAR/Delta_1A_linux/build/Makefile&quot;  VERBOSE=1 detect/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/LIDAR/Delta_1A_linux/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/LIDAR/Delta_1A_linux/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/LIDAR/Delta_1A_linux/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/pi/LIDAR/Delta_1A_linux/app/detect.cpp">
+			<Option target="detect"/>
+		</Unit>
+		<Unit filename="/home/pi/LIDAR/Delta_1A_linux/app/empty.cpp">
+			<Option target="empty"/>
+		</Unit>
+		<Unit filename="/home/pi/LIDAR/Delta_1A_linux/src/src/C3iroboticsLidar.cpp">
+			<Option target="empty"/>
+			<Option target="detect"/>
+		</Unit>
+		<Unit filename="/home/pi/LIDAR/Delta_1A_linux/src/src/CArcTime.cpp">
+			<Option target="empty"/>
+			<Option target="detect"/>
+		</Unit>
+		<Unit filename="/home/pi/LIDAR/Delta_1A_linux/src/src/CCountDown.cpp">
+			<Option target="empty"/>
+			<Option target="detect"/>
+		</Unit>
+		<Unit filename="/home/pi/LIDAR/Delta_1A_linux/src/src/CDeviceConnection.cpp">
+			<Option target="empty"/>
+			<Option target="detect"/>
+		</Unit>
+		<Unit filename="/home/pi/LIDAR/Delta_1A_linux/src/src/CLidarPacket.cpp">
+			<Option target="empty"/>
+			<Option target="detect"/>
+		</Unit>
+		<Unit filename="/home/pi/LIDAR/Delta_1A_linux/src/src/CLidarPacketReceiver.cpp">
+			<Option target="empty"/>
+			<Option target="detect"/>
+		</Unit>
+		<Unit filename="/home/pi/LIDAR/Delta_1A_linux/src/src/CLidarUnpacket.cpp">
+			<Option target="empty"/>
+			<Option target="detect"/>
+		</Unit>
+		<Unit filename="/home/pi/LIDAR/Delta_1A_linux/src/src/CSerialConnection.cpp">
+			<Option target="empty"/>
+			<Option target="detect"/>
+		</Unit>
+		<Unit filename="/home/pi/LIDAR/Delta_1A_linux/src/src/CSimulateSerial.cpp">
+			<Option target="empty"/>
+			<Option target="detect"/>
+		</Unit>
+		<Unit filename="/home/pi/LIDAR/Delta_1A_linux/src/src/CTime.cpp">
+			<Option target="empty"/>
+			<Option target="detect"/>
+		</Unit>
+		<Unit filename="/home/pi/LIDAR/Delta_1A_linux/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

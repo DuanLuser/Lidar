@@ -1,0 +1,4 @@
+/home/pi/LIDAR/Delta_1A_linux/build/CMakeFiles/rebuild_cache.dir
+/home/pi/LIDAR/Delta_1A_linux/build/CMakeFiles/edit_cache.dir
+/home/pi/LIDAR/Delta_1A_linux/build/CMakeFiles/empty.dir
+/home/pi/LIDAR/Delta_1A_linux/build/CMakeFiles/detect.dir
